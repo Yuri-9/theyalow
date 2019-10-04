@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 58" width="32" height="58">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { opacity: 0.71;fill: #f5c506 } 
+	</style>
+	<g id="bnner+header">
+		<g id="ctrl">
+			<path id="Rectangle 3 copy" class="shp0" d="M0 1L32 1L32 58L0 58L0 1Z" />
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,451 @@
+@font-face {
+  font-family: "LucidaSans" "SegoeWP" "Segoe UI" "Asap";
+
+  src: url("assets/fonts/lucidasans.ttf");
+  src: url("assets/fonts/Segoe\ WP.ttf");
+  src: url("assets/fonts/SegoeUI-Light.ttf");
+  src: url("assets/fonts/Asap-Regular.ttf");
+}
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  background: #ffffff;
+}
+
+
+.wrapper {
+  width: 100%;
+  height: 10000px;
+}
+
+.wrapper-header {
+  width: 100%;
+  height: 566px;
+
+  background: url("./assets/images/Layer_20.png");
+  background-position-x: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 1016px;
+  height: 165px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin-top: 27px;
+}
+
+.logo a {
+  font-style: italic;
+  font-size: 41px;
+  font-family: "LucidaSans";
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 0;
+  text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.42);
+}
+
+.logo span {
+  display: inline-block;
+  width: 84px;
+  height: 85px;
+
+  vertical-align: -22px;
+
+  background-image: url("assets/images/Shape_8_copy_4.svg"),
+    url("assets/images/Shape_8_copy_3.svg");
+  background-repeat: no-repeat;
+  background-position: -2px, -5px;
+}
+
+.navbar {
+  margin-top: 55px;
+}
+
+.navbar ul {
+  position: relative;
+  z-index: 10;
+
+  display: flex;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.navbar a {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 41px;
+
+  font: "SegoeWP" 17px;
+  line-height: 40px;
+  color: #9b7d08;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+
+  background-color: #f5c505;
+}
+
+.about-us {
+  width: 152px;
+  padding-left: 20px;
+
+  border-right: #dcb105 1px solid;
+}
+
+.services {
+  width: 132px;
+
+  border-right: #dcb105 1px solid;
+}
+
+.cotact {
+  width: 147px;
+}
+
+.navbar span {
+  display: inline-block;
+  height: 22px;
+
+  vertical-align: -3px;
+
+  background-repeat: no-repeat;
+}
+
+.about-us span {
+  width: 24px;
+  margin-left: 18px;
+  padding-left: 2px;
+
+  background-image: url("assets/images/Shape_5.svg");
+  background-position: 0, -3px;
+}
+
+.services span {
+  width: 17px;
+  margin-left: 17px;
+  padding-left: 2px;
+
+  background-image: url("assets/images/Shape_6.svg");
+  background-position: -3px, 0;
+}
+
+.cotact span {
+  width: 21px;
+  margin-left: 18px;
+  padding-left: 5px;
+
+  background-image: url("assets/images/Shape_7.svg");
+  background-position: -2px, 0;
+}
+
+.navbar-shadow1 {
+  position: relative;
+  top: -62px;
+  left: -4px;
+  z-index: 2;
+
+  width: 453px;
+  height: 41px;
+
+  background-color: #f5c505;
+  opacity: 0.27;
+}
+
+.navbar-shadow2 {
+  position: relative;
+  top: -106px;
+  left: -8px;
+  z-index: 1;
+
+  width: 453px;
+  height: 41px;
+
+  background-color: #f5c505;
+  opacity: 0.27;
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  height: 330px;
+  margin: 0 auto;
+}
+
+.ctrl {
+  position: relative;
+  top: -195px;
+
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ctrl-left .ctrl-right {
+  position: relative;
+  z-index: 50;
+}
+
+.ctrl-left a {
+  display: block;
+  width: 32px;
+  height: 57px;
+
+  background-color: #f5c506;
+  opacity: 0.71;
+}
+
+.ctrl-left img {
+  padding: 19px 0 0 6px;
+}
+
+.ctrl-right a {
+  display: block;
+  width: 32px;
+  height: 57px;
+
+  background-color: #f5c506;
+}
+
+.ctrl-right img {
+  padding: 19px 0 0 12px;
+}
+
+.player {
+  position: relative;
+
+  display: flex;
+  width: 549px;
+  height: 330px;
+  margin: 1px 0 0 -1px;
+}
+
+.player video {
+  position: relative;
+  z-index: 11;
+
+  width: 100%;
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 12;
+
+  width: 549px;
+  height: 330px;
+
+  background-color: #f5c506;
+  opacity: 0.11;
+}
+
+.control {
+  position: absolute;
+  top: 274px;
+  z-index: 20;
+
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 55px;
+  margin: -9px 0 0 29px;
+}
+
+.control form {
+  display: contents;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.play {
+  display: flex;
+  width: 27px;
+  height: 27px;
+  padding: 0;
+}
+
+.play img {
+  position: absolute;
+  top: 18px;
+  left: 10px;
+  z-index: 2;
+}
+
+.play div {
+  position: relative;
+  z-index: 3;
+
+  width: 27px;
+  height: 27px;
+
+  background-color: #f5c505;
+  opacity: 0.37;
+}
+
+.range {
+  display: block;
+  width: 405px;
+  height: 12px;
+  margin-left: 23px;
+
+  background: -webkit-linear-gradient(left, #f5c505 0%, #f5c505 45%, rgba(245, 197, 6, 0.28) 45%, rgba(245, 197, 6, 0.28) 100%);
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+
+  -webkit-appearance: none;
+}
+
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+.voice {
+  margin: 6px 0 0 22px;
+}
+
+.play-center {
+  position: absolute;
+  top: 133px;
+  left: 244px;
+  z-index: 13;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 66px;
+  height: 66px;
+  padding: 0;
+
+  background: none;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.play-center img {
+  position: absolute;
+  z-index: 3;
+
+  margin: 1px 0 0 3px;
+}
+
+.play-center div {
+  position: absolute;
+  z-index: 2;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: #f5c505;
+  border-radius: 50%;
+  opacity: 0.72;
+}
+
+.player-text {
+  display: block;
+  width: 452px;
+
+  font-weight: 400;
+  font-size: 63px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.player-text p {
+  margin: 2px 0 0 38px;
+
+  font-family: "Asap";
+  color: #ffffff;
+}
+
+.player-text p:first-child {
+  margin: 80px 0 0 21px;
+
+  font-family: "Asap";
+  color: #f5c505;
+}
+
+
+.wrapper-main {
+  width: 100%;
+  height: 210px;
+
+  background: url("./assets/images/Layer_7.png");
+  background-position-x: center;
+}
+
+.main-body {
+  width: 1020px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+
+.main-body ul {
+  display: flex;
+  height: 212px;
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.main-body li {
+  width: 100%;
+
+  border-left: solid #d4d4d4 1px;
+}
+
+.main-body li:last-child {
+  border-right: solid #d4d4d4 1px;
+}
+
+.main-body a {
+  display: table;
+  width: 100%;
+  height: 210px;
+
+  font-weight: 300;
+  font-size: 27px;
+  font-family: "Segoe UI";
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+}
+
+.main-body div {
+  display: table-cell;
+  padding: 0 0 31px 12px;
+
+  vertical-align: bottom;
+  text-align: center;
+}
+
+.main-body ul li:first-child img {
+  padding: 0 21px 0 0;
+}
+
+.main-body ul li:last-child img {
+  padding: 0 35px 0 0;
+}
+
+.main-body ul li:last-child span {
+  padding: 0 30px 0 0;
+}

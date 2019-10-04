@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 17" width="11" height="17">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { opacity: 0.369;fill: #ffffff } 
+	</style>
+	<g id="bnner+header">
+		<g id="player">
+			<path id="Shape 8" class="shp0" d="M0.01 1.06C0.01 0.61 0.23 0.29 0.68 0.1C1.14 -0.08 1.54 -0.01 1.9 0.33L9.68 7.74C9.91 7.95 10.01 8.2 10 8.5C10 8.78 9.89 9.03 9.68 9.23L1.9 16.67C1.54 17.01 1.14 17.08 0.68 16.89C0.23 16.71 0.01 16.38 0.01 15.91L0.01 1.06L0.01 1.06Z" />
+		</g>
+	</g>
+</svg>
