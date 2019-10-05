@@ -23,9 +23,21 @@
 }
 
 @font-face {
-  font-family: "PT-Sans";
+  font-family: "PT Sans";
 
   src: url("assets/fonts/PTSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "PT Sans Narrow";
+
+  src: url("assets/fonts/PTSansNarrow-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans";
+
+  src: url("assets/fonts/OpenSans-Regular.ttf");
 }
 
 html,
@@ -472,7 +484,7 @@ button {
 
 .wrapper-main-middle {
   width: 100%;
-  height: 508px;
+  height: 509px;
 
   background-image: url("./assets/images/Layer_10_copy_4.png");
 }
@@ -490,7 +502,7 @@ button {
 
   font-weight: 400;
   font-size: 37px;
-  font-family: "PT-Sans";
+  font-family: "PT Sans";
   color: #ffffff;
   letter-spacing: 0.35px;
 }
@@ -690,4 +702,106 @@ button {
 
   -webkit-appearance: none;
   appearance: none;
+}
+.wrapper-main-bottom{
+  width: 100%;
+  height: 495px;
+  background-image: url("assets/images/Layer_32.png");
+}
+
+.main-bottom-body{
+  position: relative;
+  width: 1020px;
+  height: 100%;
+  margin: 0 auto;
+  /*background-color: aqua;*/
+
+}
+
+.main-bottom-body div:nth-child(1){
+  height: 137px; 
+
+}
+
+.main-bottom-body div:nth-child(1) p{
+  margin: 0;
+  font-size: 43px;
+  letter-spacing: 0.4px;
+  color: #f5c506;
+  font-family: "PT Sans";
+  font-weight: 400;
+  padding: 37px 0px 0px 209px;
+}
+
+.main-bottom-body div:nth-child(2){
+  display: inline-block;
+  vertical-align: bottom;
+  height: 270px;
+  width: 341px;
+  padding: 0 0 0 15px;
+}
+
+.main-bottom-body div:nth-child(3){
+  display: inline-block;
+    vertical-align: bottom;
+    height: 270px;
+    width: 254px;
+
+}
+.main-bottom-body div:nth-child(3) img:first-child{
+  padding: 39px 17px 0 0;
+}
+
+
+.main-bottom-body div:nth-child(4){
+  display: inline-block;
+  height: 270px;
+  width: 400px;
+ 
+
+  
+}
+
+.main-bottom-body ul{
+  margin: 27px 0 0 0;
+}
+
+
+.main-bottom-body li{
+  font-size: 22px;
+  letter-spacing: 0.2px;
+  color: #a9a9a7;
+  font-family: "Open Sans";
+  font-weight: 400;
+  list-style-image: url(assets/images/Ellipse_4.svg);
+  padding: 22px 0 0px 11px;
+  line-height: 24px;
+  
+}
+
+
+
+/*.main-bottom-body li:before{
+  content:url("assets/images/Ellipse_4.svg")*/
+  
+
+
+.label-free{
+  position: absolute;
+  top: 96px;
+  left: -3px;
+  height: 116px;
+  width: 116px;
+  border-radius: 50%;
+  background-color: #f5c506;
+  text-align: center;
+  line-height: 116px;
+}
+.label-free p{
+    margin: 0;
+    font-size: 19px;
+    letter-spacing: 0.1px;
+    color: #ffffff;
+    font-family: "PT Sans Narrow";
+    font-weight: 700;
 }
