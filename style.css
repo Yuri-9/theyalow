@@ -51,7 +51,7 @@ body {
 
 .wrapper {
   width: 100%;
-  height: 10000px;
+  height: 100%;;
 }
 
 .wrapper-header {
@@ -416,11 +416,15 @@ button {
 
 
 .wrapper-main {
+  position: relative;
   width: 100%;
   height: 210px;
 
   background: url("./assets/images/Layer_7.png");
   background-position-x: center;
+  box-shadow: 0px 7px 16px -8px rgba(0,0,0,0.51),
+    0px -7px 16px -8px rgba(0,0,0,0.51);
+  z-index: 4;
 }
 
 .main-body {
