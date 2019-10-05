@@ -1,12 +1,32 @@
 @font-face {
-  font-family: "LucidaSans" "SegoeWP" "Segoe UI" "Asap";
+  font-family: "LucidaSans";
 
   src: url("assets/fonts/lucidasans.ttf");
-  src: url("assets/fonts/Segoe\ WP.ttf");
+}
+
+@font-face {
+  font-family: "Segoe WP";
+
+  src: url("assets/fonts/Segoe-WP.ttf");
+}
+
+@font-face {
+  font-family: "Segoe UI";
+
   src: url("assets/fonts/SegoeUI-Light.ttf");
+}
+
+@font-face {
+  font-family: "Asap";
+
   src: url("assets/fonts/Asap-Regular.ttf");
 }
 
+@font-face {
+  font-family: "PT-Sans";
+
+  src: url("assets/fonts/PTSans-Regular.ttf");
+}
 
 html,
 body {
@@ -86,7 +106,7 @@ body {
   align-items: center;
   height: 41px;
 
-  font: "SegoeWP" 17px;
+  font: "Segoe WP" 17px;
   line-height: 40px;
   color: #9b7d08;
   text-decoration: none;
@@ -448,4 +468,226 @@ button {
 
 .main-body ul li:last-child span {
   padding: 0 30px 0 0;
+}
+
+.wrapper-main-bottom {
+  width: 100%;
+  height: 508px;
+
+  background-image: url("./assets/images/Layer_10_copy_4.png");
+}
+
+.main-bottom-body {
+  width: 1020px;
+  height: 100%;
+  margin: 0 auto;
+  /* background-color: aqua;*/
+}
+
+.main-bottom-body > div > p {
+  margin: 0;
+  padding: 34px 0 30px 0;
+
+  font-weight: 400;
+  font-size: 37px;
+  font-family: "PT-Sans";
+  color: #ffffff;
+  letter-spacing: 0.35px;
+}
+
+.middle {
+  position: relative;
+}
+
+.colum1 {
+  position: relative;
+
+  width: 340px;
+  height: 233px;
+
+  background-color: #ec9e03;
+}
+
+.colum1 p {
+  width: 281px;
+  height: 219px;
+  margin: 16px 0 0 26px;
+
+  font-weight: 100;
+  font-size: 29px;
+  line-height: 38px;
+  font-family: "Segoe WP";
+  color: #ffffff;
+  letter-spacing: -0.3px;
+}
+
+.colum1 span {
+  position: absolute;
+  top: 192px;
+  right: 12px;
+
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 38px;
+  font-family: "Segoe WP";
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+.colum2 {
+  width: 315px;
+  height: 233px;
+
+  background-image: url("assets/images/Layer_25.png");
+  background-repeat: no-repeat;
+}
+
+.main-bottom-body div {
+  display: flex;
+}
+
+.play-center2 {
+  position: absolute;
+  top: 90px;
+  left: 465px;
+  z-index: 13;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 66px;
+  height: 66px;
+  padding: 0;
+
+  background: none;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.play-center2 img {
+  position: absolute;
+  z-index: 3;
+
+  margin: 1px 0 0 3px;
+}
+
+.play-center2 div {
+  position: absolute;
+  z-index: 2;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: #f5c505;
+  border-radius: 50%;
+  opacity: 0.72;
+}
+
+.colum3 {
+  position: relative;
+
+  width: 331px;
+  height: 233px;
+  margin: 0 0 0 32px;
+
+  background-color: #ec9e03;
+}
+
+.colum3 img {
+  position: absolute;
+  top: 59px;
+  left: 76px;
+}
+
+.colum3 span:not(:first-child) {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 38px;
+  font-family: "Segoe WP";
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+.colum3 span:last-child {
+  position: absolute;
+  top: 192px;
+  right: 8px;
+}
+
+.bottom-control {
+  position: relative;
+
+  width: 100%;
+  height: 163px;
+}
+
+.bottom-control div:first-child {
+  position: relative;
+
+  width: 109px;
+  height: 85px;
+
+  text-align: center;
+
+  background-color: #ddb101;
+}
+
+.bottom-control div span:first-child {
+  position: absolute;
+  top: 13px;
+  left: 28px;
+
+  font-weight: bold;
+  font-size: 51px;
+  line-height: 38px;
+  font-family: "Segoe UI";
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.bottom-control div span:last-child {
+  position: absolute;
+  top: 49px;
+  left: 29px;
+
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 38px;
+  font-family: "Segoe UI";
+  color: #b26529;
+  letter-spacing: 0.7px;
+}
+
+.range2 {
+  position: absolute;
+  top: 127px;
+  left: 67px;
+
+  display: block;
+  width: 896px;
+  height: 15px;
+
+  background-color: rgba(255, 255, 255, 0.48);
+  border-radius: 7px;
+  outline: none;
+  cursor: pointer;
+
+  -webkit-appearance: none;
+}
+
+.range2::-webkit-slider-thumb {
+  width: 197px;
+  height: 15px;
+
+  background-color: #ec9e03;
+  border-radius: 7px;
+  cursor: pointer;
+
+  -webkit-appearance: none;
+  appearance: none;
 }
